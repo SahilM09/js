@@ -1,4 +1,4 @@
-let score = 22
+/*let score = 22
 let age = "22ab"
 console.log(typeof score);
 console.log(typeof (score));
@@ -39,3 +39,38 @@ let SomeNumber = 23
 let stringNumber = String(SomeNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+//********OPERATIONS******* 
+*/
+let value = 3
+let negValue = -value
+/*console.log(negValue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**2);
+console.log(2/2);
+console.log(2%2);
+*/
+/*
+let str1 ="sahil"
+let str2 =" magoo"
+
+let str3=str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log("1" + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+console.log(1 + "2" + 2);
+*/
+
+let gameCounter = 100
+let x= ++gameCounter
+console.log(x);
+
+let gameCounter2 =100
+let y= gameCounter2++;
+console.log(y);
