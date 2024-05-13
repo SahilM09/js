@@ -37,3 +37,32 @@ const myFunction = function(){
 console.log(typeof outsideTemp);
 console.log(typeof myFunction);
 //type of function is object function
+
+
+
+
+
+
+
+//Stack(Primitive), Heap(non Primitive)
+
+let myName = "sahil"
+let anotherName = myName
+anotherName= "SahilMagoo"
+console.log(myName); 
+console.log(anotherName);
+
+
+let userOne = {
+    email: "user@email.com",
+    upi:"user@ybl"
+
+
+}
+let userTwo = userOne
+
+
+userTwo.email = "sahil@email.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
